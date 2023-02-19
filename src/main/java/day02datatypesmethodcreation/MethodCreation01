@@ -1,0 +1,10 @@
+Java'da method nasil olusturulur?
+
+1) main method'un disinda olusturulur.
+2) Access Modifier + Return Type + Method Ismi + () + {}
+
+Olusturulan method'lar nasil kullanilir?
+
+1) main method'un icinden kullanilir
+2) Method'un ismini yazin + () yazin
+3) Islem yapacaginiz sayilari parantezin icine koyun

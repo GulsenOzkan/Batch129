@@ -1,0 +1,22 @@
+
+1) interface'lerden object olusturulamaz cunku interface'lerin constractor'u yoktur.
+2) Abstract Class'larda object olusturulamaz. Constractor vardir ama object olusturmada kullanilamaz.
+3) interface'lerin constractor'lari olmadigindan collection olustururken
+   interface isimleri "new" keyword'unden sonra kullanilamaz.
+4) class --> class ==> extends
+   class --> interface ==> implement
+   interface --> interface ==> extends
+   interface --> class ==> Bu mumkun degildir.
+
+
+5) ArrayList'ler eleman silme ve eleman eklemede basarisizdirlar.
+   Bu yuzden eleman silme ve ekleme islemleri coklukla yapilacaksa ArrayList kullanmak tavsiye edilmez.
+
+6) LinkedList'ler index kullanmadiklarindan eleman silmede ve eklemede re-index yapilmasina gerek yoktur.
+   Bu da LinedList'leri eleman ekleme ve silmede cok basarili hale getirir. Bu yuzden eleman ekleme ve silmenin
+   cok yapilmasi gereken durumlarda LinkedList kullanmak tavsiye edilir.
+
+7) ArrayList'lerde "search" islemi kolay yapilir cunku index'ler adres gibidir.
+8) LinkedList'lerde "search" islemi zor yapilir. Cunku LinkedList'ler index kullanmaz,
+   index kullanmayinca herhangi bir elemani bulmak icin butun elemanlar en bastan kontrol edilir.
+   Bu da cok fazla is demektir.

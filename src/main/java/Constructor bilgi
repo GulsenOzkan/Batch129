@@ -1,0 +1,31 @@
+Constructer nedir?
+
+* Java'da class'lar objenin kaliplaridir
+* Her class'ta constructer vardir. Gorunmeyenler default denir
+* Class'dan object uretmemeize yarayan code block'laridir
+* Class olusturdugumuzda java bize otomatik olarak bir contructer verir.
+* Ama bu cobstructer gozle gorulmez, gozle gorunmeyen (invisile) otomatik olarak java tarafindan verilen bu constructer'lara
+default constructer denir
+* Default constructor'lar su sekilde olur;
+* Biz defaultlari kullanmak yerine ozellikleri olanlari olusturur onu kullaniriz
+
+             "Car(){}"
+* Isim her zaman class'in ismi ile ayni'dir
+* Siz kendi constructe'inizi olusturdugunuzda java default constructer'i siler
+* Bir class'ta farkli parametreler kullanarak istediginiz kadar parametre kullanabilirsiniz
+* Farkli constructer'lar sayesinde bir class'tan farkli farkli objeler olusturabilirz
+
+
+* Olusturdugumuz objeleri yazdirmak icin toString methodu lazim, yoksa yazdirmaz
+* Bu sayede bu class'i kalip olarak kullanip yeni degerler uretebiliyoruz
+* Genellikle constructer'lar public olur
+* Bir class'in icine istediginiz kadar constructar koyabilirsiniz
+
+ **  Interview sorusu: Method ile constructer arasinda fark var midir? Varsa nedir?
+ *Cevap: Method ile constructer'ler farkli yapilardir.
+        1) Method'larda "return type" vardir ama "constructer" larda "return type" yoktur
+        2) Method'larin isli yaptiklari ise gore developperlar tarafindan belirlenir
+        Constructer'larin ismi her zaman class ismi ile ayni olmak zorundadir
+
+* Constructer'larda return type yok
+* Constructer olusturuken constructar ismi class isli ile ayni olacak methodlarda ayni olmasi gerekmez

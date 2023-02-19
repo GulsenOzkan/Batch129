@@ -1,0 +1,25 @@
+Variable olusturmak
+Java cumlesi = Statement
+Java'da esittir demek "==". Yani Matematikte "=",Java'da "=="
+Java'da "=" "assignment operator"dir. Sagdaki degeri alir soldakikutuya koyar.
+Access Modifier yazmazsaniz "access modifier" "default" demektir.
+Data Type + Variable name ==> Variable Declaration
+Assignment Operator (Atama OPeratoru) + Variable degeri ==> Assignment
+Eger Variable Declaration yapar, Assignment yapmazsaniz Java kendi degerlerini (default) koyar.
+Default degerler sayilar icin sifirdir.
+Data Type'ini yaziniz    Variable ismi yaziniz   Assignment Operator(Atama operatoru)  Variable degeri    ingilizcedeki nokta gibi
+
+Java'da temelde iki tip data vardir;
+
+1) primitive data type
+char : Tek karakterler icin kullanilir. A, x, ?, 5,.
+boolean : boolean'lar sadece iki farkli deger alabilir; true veya false.
+byte: -128 den +127 e kadar tamsayi degerleri icin kullanilir. (1 byte)
+short: -32 768 ile 32 767 arasindaki tamsayilar icin kullanilir. (2byte)
+int: -2,147,483,648 ile 2,147,483,647 arasindaki sayilar icin kullanilir. (4byet)
+long: -9,223,372,036,775,808 ile 9,223,372,036,854,887 arasindaki sayilar icin kullanilir. (8byte)
+float:
+double:
+
+2) Non-primitive data type
+
